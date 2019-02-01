@@ -1,7 +1,7 @@
 # Assignment 1 Part 2A
 ## Team 8
 
-Team members:  Manoj Karru, Nishant Ghandi, Emily Strong
+Team members:  Manoj Karru, Nishant Gandhi, Emily Strong
 
 Assignment: Compare CPU vs GPU performance and explore the Keras callbacks
 
