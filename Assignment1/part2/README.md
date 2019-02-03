@@ -17,3 +17,5 @@ Report: https://docs.google.com/document/d/1QqaxHu_kMS1Cu9cwWDzPA3RNkoYMJCNhwRdD
 
 Slides: https://docs.google.com/presentation/d/1YWyGeUIyxb_a7BowJDz_930RT89ntjXZ4ubMl3figDc/edit?usp=sharing
 
+YouTube Video: https://www.youtube.com/watch?v=xrH-OO7DohM
+
