@@ -8,7 +8,7 @@ https://tiny-imagenet.herokuapp.com/
 
 The pickle file for the train images is too large. To download the train images:
 
-https://drive.google.com/file/d/1oJNciT-PdcaBKHflx1eg55mJqXLDbAI0/view?usp=sharing
+https://drive.google.com/file/d/1kNrpRP406uz0g5oscSlQ6gTgILfeoTQh/view?usp=sharing
 
 ## Human-Readable Labels
 
