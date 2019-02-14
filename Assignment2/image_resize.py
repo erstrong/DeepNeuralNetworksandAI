@@ -62,12 +62,15 @@ for filename in os.listdir('data'):
         label = filename[0:9]
         img = Image.open( name )
         img.load()
-        train_images.append(np.asarray(img)) 
+        img = img.convert("RGB")
+        train_images.append(np.asarray(img))
         train_labels.append(label)
         counter += 1
         if counter % 1000 == 0:
             print(str(counter) + ' images converted')
 
+train_images = np.asarray(train_images)
+train_labels = np.asarray(train_labels)
 
 pickle.dump(train_images, open( "~/imagenet-200/train_images.pkl", "wb" ) )
 pickle.dump( train_labels, open( "~/imagenet-200/train_labels.pkl", "wb" ) )
@@ -90,11 +93,15 @@ for filename in os.listdir('val'):
         label = df.loc[df['file'] == filename, 'label'].iloc[0]
         img = Image.open( name )
         img.load()
-        val_images.append(np.asarray(img)) 
+        img = img.convert("RGB")
+        val_images.append(np.asarray(img))
         val_labels.append(label)
         counter += 1
         if counter % 1000 == 0:
             print(str(counter) + ' images converted')
+
+val_images = np.asarray(val_images)
+val_labels = np.asarray(val_labels)
 
 pickle.dump(val_images, open( "~/imagenet-200/val_images.pkl", "wb" ) )
 pickle.dump(val_labels, open( "~/imagenet-200/val_labels.pkl", "wb" ) )
