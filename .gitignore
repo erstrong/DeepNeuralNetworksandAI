@@ -1,2 +1,3 @@
-/saved_models/assignment1_part1_history.pkl
-
+# Large files
+/Assignment1/part1/saved_models/assignment1_part1_history.pkl
+/Assignment2/imagenet-200/train_images.pkl
