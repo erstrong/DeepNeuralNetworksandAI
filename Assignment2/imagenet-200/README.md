@@ -1,5 +1,13 @@
 # Data Notes
 
+## Files:
+train_labels.pkl: The training set labels stored in a numpy array.
+y_train.zip: The training labels one-hot encoded. Zip contains a pickle of a numpy array.
+val_images.pkl: The validation images in 32x32 size stored in a numpy array.
+val_labels.pkl: The validation set labels stored in a numpy array.
+y_test.pkl: The validation labels one-hot encoded stored in a numpy array.
+
+
 ## Data Source
 
 https://tiny-imagenet.herokuapp.com/
