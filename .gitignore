@@ -2,6 +2,10 @@
 /Assignment1/part1/saved_models/assignment1_part1_history.pkl
 /Assignment2/imagenet-200/train_images.pkl
 /Assignment2/imagenet-200/y_train.pkl
+/Assignment3/aclImbdb/*
+
+# Misc
+/Assignment3/GloVe-1.2/*
 
 # Old files
 /Assignment2/part2/saved_models/old/*
