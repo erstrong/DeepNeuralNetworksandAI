@@ -1,0 +1,7 @@
+# Ingnore
+conf/*
+*.pyc
+.idea/
+
+# Allow
+!conf/*.enc
